@@ -374,8 +374,9 @@ ul.main__menu > li:hover > a {
 
 .offcanvas-menu li a {
     display: block;
-    color: #101320;
-    font-weight: 700;
+    color: #000;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); 
     text-decoration: none;
     text-transform: uppercase;
 }

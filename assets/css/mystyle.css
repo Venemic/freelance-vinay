@@ -140,3 +140,47 @@
     margin-top: 5px;
   }
   
+  .payment-container {
+    background-color: white;
+    width: 350px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-container h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #343e4b;
+}
+
+.qr-placeholder {
+    width: 200px;
+    height: 200px;
+    background-color: #ddd;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.upi-id {
+    font-size: 14px;
+    color: #555;
+    margin: 15px 0;
+}
+
+.scan-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.payment-methods img, .apps img {
+    width: 100px;
+    margin: 5px;
+}
+
+.apps img {
+    width: 60px;
+}
