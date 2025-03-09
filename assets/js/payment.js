@@ -28,11 +28,18 @@ function generateQRCode() {
     let upiURL = `upi://pay?pa=${upiID}&pn=${encodeURIComponent(payeeName)}&am=${amount}&cu=INR`;
 
     // Set a fixed size for the QR code
-    new QRious({
+    let qr = new QRious({
         element: qrCanvas,
         value: upiURL,
         size: 300
     });
+
+    // Convert QR code to image
+    let qrImage = document.getElementById("qrImage");
+    let qrImageURL = qr.toDataURL("image/png");
+
+    qrImage.src = qrImageURL;
+    qrImage.style.display = "block"; // Show the image
 }
 
 
